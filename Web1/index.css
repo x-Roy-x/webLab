@@ -1,0 +1,49 @@
+p ,li{
+	font-size: 18px;
+}
+body{
+	margin-right: 250px;
+	margin-left: 250px;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+.a img{
+	display: block;
+	margin: 0 auto;
+	height: 5%;
+	width: 5%;
+}
+p #b{
+	float: left;
+	height: 10%;
+	width: 10%;
+}
+p #c{
+	display: block;
+	margin: 0 auto;
+	//центр
+}
+#d,#e,#g,#h{
+	float: right;	
+}
+
+p #f{
+	float: left;	
+}
+#bor{
+	border-style:solid;
+}
+h3{
+	background-color: black;
+	color:white;
+	margin-top: 0px;
+	font-size: 20px;
+}
+#borp{
+	margin: 30px;
+}
