@@ -1,0 +1,121 @@
+*{
+	color: #F5F5F5;
+	list-style-type: none;
+	text-decoration: none;
+}
+html{
+	background: #808080;
+}
+header{
+	height: 130px;
+	background: #696969;
+}
+header img{
+	float: right;
+	margin-right: 50px
+}
+nav{
+	position: fixed;
+	top: 30px;
+}
+nav ul li{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #808080;
+}
+nav ul li a{
+	padding: 20px;
+	border: 3px solid #1C1C1C;
+}
+h2{
+	text-align: center;
+}
+p{
+	margin: 100px;
+}
+div{
+	float: left;
+	margin: 2%;
+	width: 20%;
+	height: 500px;
+	background:	#696969;
+	border-bottom: 5px solid white;
+	border-right: 5px solid white;
+}
+div img{
+	margin: 10px;
+}
+div h3{
+	margin: 10px;
+}
+div p{
+	margin: 10px;
+}
+footer{
+	height: 130px;
+	background: #696969;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li ul li{
+	//float: none;
+	position: relative;
+	top: 25px;
+	right: 40px;
+}
+ul li:hover{ 
+	background: #A9A9A9;
+}
+ul li a:hover{ 
+	border-color: #8B8682;
+}
+#loch{
+	margin-top: 800px;
+}
+ul li a {
+  transition: 1s;
+}
+ul li {
+  transition: 1s;
+}
+footer p {
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: slider;
+  }
+  @keyframes slider{
+    from {
+      margin-left: 70%;
+      width: 100%; 
+    }
+
+    to {
+      margin-right: : 100%;
+      width: 100%;
+    }
+  }
+h1,h2 {
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-name: header;
+  }
+  @keyframes header{
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+
+    to {
+      margin-left: : 50%;
+     width: 100%;
+    }
+  }
