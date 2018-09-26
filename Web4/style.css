@@ -1,0 +1,55 @@
+h2{
+	text-align: center;
+}
+header{
+	position: fixed;
+	width: 100%
+}
+p{
+	margin: 100px;
+}
+footer{
+	height: 130px;
+	width: 100%;
+	background: #B5B5B5;
+}
+ul li:hover{ 
+	background: #A9A9A9;
+}
+ul li,ul li a{
+	transition: 1.5s;
+}
+/* footer p {
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: slider;
+  }
+  @keyframes slider{
+    from {
+      margin-left: 70%;
+      width: 100%; 
+    }
+
+    to {
+      margin-right: : 100%;
+      width: 100%;
+    }
+  } */
+h1,h2 {
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-name: header;
+  }
+  @keyframes header{
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+
+    to {
+      margin-left: : 50%;
+     width: 100%;
+    }
+  }
