@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+	<head>
+		<title>Велоспорт</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		  	<script src="NewsADD.js"></script>
+		  	<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed">
+    			<div class="container-fluid">
+      				<div class="navbar-header">
+        				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              				<span class="icon-bar"></span>
+              				<span class="icon-bar"></span>
+              				<span class="icon-bar"></span>
+            			</button>
+        				<a class="navbar-brand" href="#">Cycling</a>
+      				</div>
+	      			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        			<ul class="nav navbar-nav">
+	          				<li><a href="Main.html">Main</a></li>
+	          				<li class="dropdown">
+	            			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Matches<b class="caret"></b></a>
+		            			<ul class="dropdown-menu">
+		            				<li><a href="Matches.html">Next game</a></li>
+		                			<li><a href="">Raitigs</a></li> 
+		           				</ul>
+	          				</li>
+	          				<li><a href="News.html">News</a></li>
+	          				<li><a href="Fans.html">Fans</a></li>
+	          				<li><a href="Contacts.html">Contacts</a></li>
+	          				<li class="active"><a href="Admin.html">Admin</a></li>
+	        			</ul>
+	      			</div>
+    			</div>
+ 			</nav>
+		</header>
+		<content class="row">
+			<div style="margin-top: 50px">
+	    		<div class = container>
+					<center><h1>Додати новину</h1></center>
+        			<div class="form-group">
+            			<input type="file" accept="/*" class="form-control-file" id="userInputFile" onchange="loadPreviewPhoto()" aria-describedby="fileHelp">
+            			<small id="fileHelp" class="form-text text-muted">Вибрати фото </small>
+        			</div>
+        			<img src=add-2935429_960_720.jpg alt = "Фото статті" class="img-fluid" id="user-image" width = '300px'>
+					<div class="form-group">
+          				<label for="">Заголовок</label>
+						<input class="form-control" type="text" id="title" placeholder="Напишіть заголовок ...">
+						<label for="">Стаття</label>
+						<textarea class="form-control" rows="5" id="description" placeholder="Напишіть новину ..."></textarea>
+					</div>
+				</div>
+
+			</div>
+			<div class="container">
+				<p>Після завершення обробки можете відправити вашу новину на сторінку Новин</p>
+				<button class="btn btn-success btn-block" onclick="addNews()" >Відправити</button>
+			</div>
+		</content>
+		<footer>
+			<p>На сайті відсутня реклама ,суто ознайомча тематика (06352114**)</p>
+		</footer>
+	</body>
+</html>
