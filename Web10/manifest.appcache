@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+CACHE:
+/style.css
+/Contacts.html
+/Main.html
+/Matches.html
+/News.html
+
+NETWORK:
+*
+
+FALLBACK:
+Admin.html /Error.html
